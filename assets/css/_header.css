@@ -1,0 +1,41 @@
+.header{
+	background: #000;
+	border-bottom: 3px solid #f89a1d;
+	padding: 30px 0;
+}
+.hdr-lft {
+    width: 25%;
+    float: left;
+    padding-left: 55px;
+    padding-left: 5px;
+}
+.logo{
+	max-width: 150px;
+	width: 100%;
+}
+.logo a{
+	display: inline-block;
+	vertical-align: baseline;
+	text-decoration: none;
+}
+.hdr-rgt{
+	width: 75%;
+	float: right;
+}
+.hdr-rgt p{
+	margin: 0;
+	font-size: 18px;
+	line-height: 20px;
+	color: #fff;
+	text-align: right;
+	padding: 8px 0;
+}
+.hdr-rgt p a{
+	display: inline-block;
+	vertical-align: baseline;
+	text-decoration: none;
+	color: inherit;
+}
+.hdr-rgt p a:hover{
+	color: #f38b06;
+}

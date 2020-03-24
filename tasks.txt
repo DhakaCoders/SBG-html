@@ -1,0 +1,27 @@
+Cart pages: 
+Main cart page: 
+https://www.superboostgreens.com/superboostgreens-orderform33031218
+
+Order page - 1 jar (one off order): 
+https://www.superboostgreens.com/superboost-greens-checkout
+
+Order page - subscription (no timer): 
+https://www.superboostgreens.com/superboost-greens-checkout-special-deal35715897
+
+Order page - 3 jar Blizt Dose (one off order): 
+https://www.superboostgreens.com/superboost-greens-checkout-blitz-dose-3-jars35718599
+
+Order page -2 jar Blizt Dose (one off order): 
+https://www.superboostgreens.com/superboost-greens-checkout-blitz-dose-2-jars35719457
+
+Order page - subscriptions (special pricing): 
+https://www.superboostgreens.com/superboost-greens-checkout-half-off36304956
+
+OTO (upsell) page - 3 jars: 
+https://www.superboostgreens.com/oto-sbg
+
+Downsell page - 2 jars: 
+https://www.superboostgreens.com/sbg-down-133031226
+
+Thank you page: 
+https://www.superboostgreens.com/bonuses

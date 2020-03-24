@@ -1,0 +1,259 @@
+.countdown-popup-main{
+  padding: 25px 5px 12px;
+  background-color: rgb(255, 255, 255);
+  opacity: 1;
+  position: relative;
+  z-index: 100;
+}
+.countdown-popup-main h1{
+  font-weight: 700;
+  color: rgb(228, 59, 44);
+  text-transform: uppercase;
+  line-height: 1.3em;
+  margin-bottom: 10px;
+}
+.countdown-popup-main h3{
+  font-weight: 700;
+  color: rgb(32, 22, 82);
+  line-height: 1.3em;
+  margin-bottom: 15px;
+}
+.countdown-popup-main h3 span{
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+.countdown-popup-main h5{
+  font-weight: 700;
+  color: rgb(228, 59, 44);
+  line-height: 1.3em;
+  margin-bottom: 32px;
+}
+.countdown-popup-main h4{
+  font-size: 23px;
+  margin-bottom: 30px;
+}
+.countdown-popup-main h4 strong{
+  font-weight: 800;
+}
+.countdown-popup-main a {
+    display: inline-block;
+    vertical-align: baseline;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    background-color: rgb(1, 116, 199);
+    font-size: 20px;
+    border: 1px solid rgba(0,0,0,0.2);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.2);
+    border-radius: 3px;
+    text-transform: uppercase;
+    padding: 15px 28px;
+    font-family: 'Oswald', sans-serif;
+    max-width: 435px;
+}
+.countdown-popup-main a:hover {
+  -webkit-box-shadow: inset 0 2px 2px 0 rgba(255,255,255,0.22),0 233px 233px 0 rgba(255,255,255,0.12) inset;
+  box-shadow: inset 0 2px 2px 0 rgba(255,255,255,0.22),0 233px 233px 0 rgba(255,255,255,0.12) inset;
+}
+.countdown-popup-wrapper .modal-dialog {
+  max-width: 745px;
+  width: 100%;
+}
+.countdown-popup-wrapper .modal-body{
+  z-index: 100;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  position: relative;
+}
+.countdown-popup-wrapper .modal-content {
+  background-color: transparent;
+  border: 0;
+  border-radius: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.modal-close-con {
+  display: inline-block;
+  vertical-align: baseline;
+  position: absolute;
+  top: -18px;
+  right: -22px;
+  max-width: 40px;
+  cursor: pointer;
+  transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+.modal-close-con:hover {
+  opacity: .7
+}
+.modal-close-con img{
+  width: 100%;
+}
+#clockdiv, #clockdiv1{
+  display: inline-block;
+  font-weight: 100;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 20px;
+}
+#clockdiv > div, #clockdiv1 > div{
+  padding: 5px;
+  display: inline-block;
+}
+#clockdiv div > span, #clockdiv1 > div span{
+  padding: 5px;
+  padding-top: 31px;
+  background: #FFF;
+  display: inline-block;
+  color: #C41229;
+  border: 4px solid #C41229;
+  border-radius: 100%;
+  width: 100px;
+  height: 95px;
+  font-size: 47px;
+  font-weight: 700;
+}
+#clockdiv .smalltext, #clockdiv1 .smalltext{
+  padding-top: 6px;
+  font-size: 14px;
+  font-weight: 700;
+  display: block;
+  text-transform: uppercase;
+  color: rgba(0,0,0,0.4);
+}
+#dftTimerCon #clockdiv div > span {
+  font-size: 27px;
+  font-weight: bold;
+  width: 69px;
+  height: 61px;
+  background: linear-gradient(to bottom, #e5162f 0%, #c41229 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e5162f', endColorstr='#c41229', GradientType=0);
+  border: 2px solid #c41229;
+  text-shadow: 1px 1px 0px rgba(255,255,255,0.2);
+  color: #43010f;
+  padding: 16px;
+  margin-bottom: 6px;
+  text-align: center;
+  border-radius: 5px;
+  text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
+  -webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.1),inset 0 1px 0 rgba(255,255,255,0.2);
+  -moz-box-shadow: 0 1px 5px rgba(0,0,0,0.1),inset 0 1px 0 rgba(255,255,255,0.2);
+  box-shadow: 0 1px 5px rgba(0,0,0,0.1),inset 0 1px 0 rgba(255,255,255,0.2);
+}
+#dftTimerCon{
+  padding-left: 0;
+      text-align: center;
+}
+#dftTimerCon #clockdiv .smalltext {
+  padding-top: 5px;
+  font-size: 10px;
+  font-weight: 700;
+  display: block;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.3);
+  line-height: 12px;
+}
+#dftTimerCon #clockdiv > div {
+  padding:5px 7px 0;
+}
+#dftTimerCon #clockdiv > div.hours-wrp{
+  padding-left: 0;
+}
+#dftTimerCon #clockdiv > div.seconds-wrp{
+  padding-right: 0;
+}
+#dftTimerCon #clockdiv {
+  padding-top: 0;
+}
+.tstitemimg img{
+  border-radius: 5px;
+}
+@media(max-width: 767px){
+  #clockdiv div > span {
+    padding-top: 25px;
+    width: 85px;
+    height: 82px;
+    font-size: 32px;
+  }
+  .countdown-popup-wrapper .modal-dialog {
+    margin: 40px auto 0;
+  }
+  .rb-content-sec-wrp {
+      padding-top: 20px;
+      padding-left: 10px;
+      padding-right: 10px;
+  }
+  .rb-contact-dsc {
+      border-top:1px solid rgba(0,0,0,0.1);
+      border-bottom:1px solid rgba(0,0,0,0.1);
+      padding-top: 20px;
+      text-align: center;
+      padding-bottom: 20px;
+  }
+  .phoneBlock {
+      margin-bottom: 10px;
+  }
+  .testimonials-list{
+    margin-top: 40px;
+  }
+}
+
+@media(max-width: 575px){
+  .countdown-popup-main a {
+    font-size: 18px;
+  } 
+  .rb-btm-info a {
+      font-size: 18px;
+  }
+  .testimonials-list{
+    margin-top: 30px;
+  }
+  .tstitemimg{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .tstitemimg img{
+    max-width: 320px;
+    width: 100%;
+    display: inline-block;
+  }
+  .tstitemcn{
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+}
+
+@media(max-width: 479px){
+  .countdown-popup-main {
+    padding: 25px 0 12px;
+  }
+  #clockdiv div > span {
+    padding-top: 19px;
+    width: 70px;
+    height: 70px;
+    font-size: 28px;
+  }
+  #clockdiv .smalltext {
+    padding-top: 4px;
+    font-size: 13px;
+  }
+  .countdown-popup-main h4 {
+      font-size: 20px;
+      margin-bottom: 20px;
+  }
+  .countdown-popup-main a {
+    font-size: 15px;
+    padding: 15px 15px;
+  }
+}
+
+@media(max-width: 359px){
+  .countdown-popup-main a {
+      font-size: 12px;
+      padding: 10px 10px;
+  }
+
+}
