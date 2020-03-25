@@ -1080,7 +1080,10 @@ a.color-sky{
 	}
 	.rb-address-dsc-wrp-md-cntlr{
 		padding-top: 20px!important;
-		margin-top: 40px;
+		margin-top: 20px;
+	}
+	.rb-address-dsc-bg {
+	    padding: 10px 30px 20px;
 	}
 }
 
@@ -1191,6 +1194,9 @@ a.color-sky{
 	}
 	.rb-counter-lft-dsc p{
 		font-size: 14px;
+	}
+	.rb-address-dsc-bg {
+	    padding: 10px 15px 20px;
 	}
 }
 

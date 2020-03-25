@@ -18,7 +18,7 @@
 	font-weight: 700!important;
 }
 .sbg-time-dv-dsc ul li i{
-    padding: 10px 10px;
+    padding: 9px 9px;
     background: #fafafa;
     border: 1px solid #eee;
     border-bottom-color: rgb(238, 238, 238);
@@ -26,7 +26,7 @@
     border-bottom-width: 1px;
     border-bottom: 2px solid #ddd;
     border-radius: 224px;
-    margin: 5px 0;
+    margin: 0;
     margin-right: 0px;
     margin-left: 0px;
     margin-right: 6px;
@@ -131,7 +131,7 @@
 }
 .sbg-sidebar-upsell-rgt-dsc{
 	background-color: rgb(242, 242, 242);
-	padding: 15px 10px 15px;
+	padding: 15px 15px 15px;
 }
 .sbg-sidebar-upsell-tp b{
 	color: #000;
@@ -170,9 +170,10 @@
 .sbg-you-think strong span{
 	font-weight: 400;
 }
-.sbg-sidebar-upsell-btm p{
-	font-size: 18px;
-	line-height: 22px;
+.sbg-sidebar-upsell-btm p {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 20px;
 }
 
 .sbg-order-now-btn > a{
@@ -258,4 +259,48 @@
 }
 .gua-box-dwn-sl{
 	padding-bottom: 120px;
+}
+.rb-time-dv-dsc ul.singleList li{
+	padding-top: 3px;
+}
+.confirmOrder {
+    font-size: 13px;
+    padding-left: 20px;
+    position: relative;
+    line-height: 19px;
+    padding: 5px 5px 8px 25px;
+    margin: 5px 0px 0px;
+    outline: none;
+    background-color: rgba(255, 227, 0, 0.12);
+    border-color: rgb(228, 59, 44);
+    margin-bottom: 25px;
+    border-width: 1px;
+    border-style: dashed;
+}
+.confirmOrder input {
+    position: absolute;
+    left: 7px;
+    top: 9px;
+}
+.topPromoSec{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 18px;
+}
+.topPromoSec h4 {
+    text-align: center;
+    font-size: 32px;
+    color: rgb(228, 59, 44);
+    line-height: 1.3em;
+    font-weight: 700;
+    margin: 0;
+}
+.topPromoSec i{
+	text-align: center;
+    font-size: 23px;	
+}
+@media(max-width: 991px){
+	.sbg-mastercard-img{
+		text-align: center;
+	}
 }

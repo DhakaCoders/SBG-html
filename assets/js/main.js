@@ -80,16 +80,18 @@ $('.modal-close-con, a.closePopup').on('click', function(e){
 Calculate prices -> FREE Night Vision Glasses
 */
 var totalPrice = 2.95;
-if( $('#checkout3').length ){
-  totalPrice = 2.95;
+if( $('#checkout2').length ){
+  totalPrice = 34.97;
 }
 var itemPrice = 7.95;
 var ProtectOrder = 2.95;
+var eBook = 2.95;
 var SendBonus = 7.95;
-var AccessoryPack = 9.95;
-var ProtectOrderOutput = '<div id="itemptorder" class="rb-step-item clearfix"><span>12 No Diet Ways To Manage Weight Effortlessly</span><span class="thisItemPrice">$2.95</span></div>';
+var LifetimeGaurantee = 9.95;
+var ProtectOrderOutput = '<div id="itemptorder" class="rb-step-item clearfix"><span>Shipping Insurance</span><span class="thisItemPrice">$2.95</span></div>';
+var eBookOutput = '<div id="itemebook" class="rb-step-item clearfix"><span>12 No Diet Ways To Manage Weight Effortlessly</span><span class="thisItemPrice">$2.95</span></div>';
 var SendBonusOutput = '<div id="itemsbonus" class="rb-step-item clearfix"><span>Hard Cover</span><span class="thisItemPrice">$7.95</span></div>';
-var AccessoryPackOutput = '<div id="accpack" class="rb-step-item clearfix"><span>Lifetime Guarantee</span><span class="thisItemPrice">$9.95</span></div>';
+var LifetimeGauranteeOutput = '<div id="accpack" class="rb-step-item clearfix"><span>Lifetime Guarantee</span><span class="thisItemPrice">$9.95</span></div>';
 
 $('#ProtectOrder').on('change', function(){
   if(this.checked) {
@@ -99,6 +101,18 @@ $('#ProtectOrder').on('change', function(){
   }else{
     $('#itemptorder').remove();
     totalPrice = totalPrice - ProtectOrder;
+    $('#priceTotal').html('$'+totalPrice.toFixed(2));
+  }
+});
+
+$('#eBook').on('change', function(){
+  if(this.checked) {
+    totalPrice = totalPrice + eBook;
+    $('#summeryItems').append(eBookOutput);
+    $('#priceTotal').html('$'+totalPrice.toFixed(2));
+  }else{
+    $('#itemptorder').remove();
+    totalPrice = totalPrice - eBook;
     $('#priceTotal').html('$'+totalPrice.toFixed(2));
   }
 });
@@ -113,14 +127,14 @@ $('#SendBonus').on('change', function(){
     $('#priceTotal').html('$'+totalPrice.toFixed(2));
   }
 });
-$('#AccessoryPack').on('change', function(){
+$('#LifetimeGaurantee').on('change', function(){
   if(this.checked) {
-    totalPrice = totalPrice + AccessoryPack;
-    $('#summeryItems').append(AccessoryPackOutput);
+    totalPrice = totalPrice + LifetimeGaurantee;
+    $('#summeryItems').append(LifetimeGauranteeOutput);
     $('#priceTotal').html('$'+totalPrice.toFixed(2));
   }else{
     $('#accpack').remove();
-    totalPrice = totalPrice - AccessoryPack;
+    totalPrice = totalPrice - LifetimeGaurantee;
     $('#priceTotal').html('$'+totalPrice.toFixed(2));
   }
 });
