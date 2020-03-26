@@ -299,8 +299,189 @@
 	text-align: center;
     font-size: 23px;	
 }
+
+
+@media(max-width: 1199px){
+	.sbg-sidebar-upsell-tp b {
+	    font-size: 25px;
+	    line-height: 29px;
+	}
+	.sbg-sidebar-upsell-tp strong {
+	    font-size: 34px;
+	    line-height: 40px;
+	}
+	.sbg-sidebar-upsell-tp strong br{
+		display: none;
+	}
+	.guarantee-box-dsc strong {
+	    font-size: 45px;
+	    line-height: 47px;
+	}
+	.sbg-sidebar-dwn-sl-tp b {
+	    font-size: 45px;
+	    line-height: 50px;
+	}
+	.guarantee-box-dsc b {
+	    font-size: 20px;
+	    line-height: 22px;
+	}
+	.sbg-sidebar-dwn-sl-tp strong {
+	    font-size: 31px;
+	    line-height: 37px;
+	}
+	.sbg-sidebar-upsell-tp strong br,
+	.sbg-sidebar-upsell-tp b br{
+		display: none;
+	}
+}
+
 @media(max-width: 991px){
 	.sbg-mastercard-img{
 		text-align: center;
 	}
+	.sbg-sidebar-upsell-tp strong {
+	    font-size: 32px;
+	    line-height: 38px;
+	}
+	.guarantee-box-dsc strong {
+	    font-size: 42px;
+	    line-height: 44px;
+	}
+	.guarantee-box-dsc b {
+	    font-size: 19px;
+	    line-height: 21px;
+	}
+	.sbg-sidebar-upsell-lft {
+	    width: 100%;
+	    float: left;
+	    padding-right: 0;
+	    padding-bottom: 40px;
+	}
+	.sbg-free-shpping{
+		text-align: center;
+	}
+	.sbg-sidebar-upsell-rgt {
+	    width: 100%;
+	    float: right;
+	    padding-left: 0;
+	}
+	.sbg-sidebar-dwn-sl-tp b {
+	    font-size: 42px;
+	    line-height: 48px;
+	}
+	.sbg-sidebar-dwn-sl-tp strong {
+	    font-size: 30px;
+	    line-height: 36px;
+	}
+	.guarantee-box-dsc-wrp{
+		background: transparent;
+		background-color: #3da5df;
+		position: relative;
+		z-index: 1;
+	}
+	.guarantee-box-dsc-wrp{
+	    padding-bottom: 170px !important;
+	}
+	.gua-box-gray-bg {
+	    position: absolute;
+	    left: 0;
+	    right: 0;
+	    bottom: 0;
+	    background: #3b3b3b;
+	    height: 145px;
+	    z-index: -1;
+	    padding: 15px 0;
+	    text-align: center;
+	}
+	.gua-box-gray-bg:after{
+		content: "";
+		position: absolute;
+		left: 50%;
+		top: -16px;
+		background: url(../images/money-back-angle.png);
+		background-repeat: no-repeat;
+		background-size: 47px 17px;
+		width: 47px;
+		height: 17px;
+		transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+		-webkit-transform: translateX(-50%);
+	}
 }
+
+@media(max-width: 767px){
+	.sbg-sidebar-upsell-tp b {
+	    font-size: 24px;
+	    line-height: 28px;
+	}
+	.sbg-sidebar-upsell-tp strong {
+	    font-size: 30px;
+	    line-height: 36px;
+	}
+	.guarantee-box-dsc strong {
+	    font-size: 40px;
+	    line-height: 42px;
+	}
+	.guarantee-box-dsc b {
+	    font-size: 18px;
+	    line-height: 20px;
+	    padding-bottom: 15px;
+	}
+	.sbg-sidebar-dwn-sl-tp b {
+	    font-size: 39px;
+	    line-height: 45px;
+	}
+	.sbg-sidebar-dwn-sl-tp strong {
+	    font-size: 29px;
+	    line-height: 35px;
+	}
+	.day-meny-back-title p {
+	    font-size: 22px;
+	    line-height: 26px;
+	}
+	.day-meny-back-title b {
+	    font-size: 22px;
+	    line-height: 24px;
+	}
+	.day-meny-back-title {
+	    padding-top: 15px;
+	}
+}
+
+@media(max-width: 575px){
+	.sbg-sidebar-upsell-tp strong {
+	    font-size: 28px;
+	    line-height: 34px;
+	}
+	.sbg-sidebar-upsell-btm p {
+	    font-size: 17px;
+	    line-height: 23px;
+	    margin-bottom: 15px;
+	}
+	.guarantee-box-dsc strong {
+	    font-size: 37px;
+	    line-height: 40px;
+	}
+	.sbg-sidebar-dwn-sl-tp b {
+	    font-size: 36px;
+	    line-height: 42px;
+	}
+	.sbg-sidebar-dwn-sl-tp strong {
+	    font-size: 27px;
+	    line-height: 31px;
+	}
+}
+@media(max-width: 479px){
+	.sbg-order-now-btn > a {
+	    padding: 15px 10px 15px 10px;
+	    font-size: 19px;
+	    line-height: 21px;
+	}
+}
+@media(max-width: 359px){
+	.sbg-order-now-btn > a {
+	    font-size: 16px;
+	    line-height: 18px;
+	}
+}
+
