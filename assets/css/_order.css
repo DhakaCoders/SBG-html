@@ -73,8 +73,9 @@
 .sbg-underline b em{
 	text-decoration: underline;
 }
-.sbg-pr-now-img img{
-	max-width: 100%;
+.sbg-pr-now-img img {
+    max-width: 450px;
+    width: 100%;
 }
 .sbg-order-4-dcs{
 	padding-top: 40px;
