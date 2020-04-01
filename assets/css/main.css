@@ -1855,6 +1855,17 @@ a.color-sky{
 	font-weight: normal!important;
 }
 
+/*
+----------------------
+ Terms And Conditions
+----------------------
+*/
+.sbg-tc-dsc-wrp .sbg-tc-dsc-head b{
+  font-size: 27px;
+  line-height: 29px;
+  font-weight: 700;
+}
+
 
 
 @media(max-width: 1199px){
