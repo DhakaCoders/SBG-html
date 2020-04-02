@@ -267,6 +267,23 @@ sbg-site-mnt-sec-wrp
 	font-size: 20px;
 	line-height: 22px;
 }
+
+.mrg-btm-0{
+	margin-bottom: 0 !important;
+}
+.ftr-mrg-prd-0{
+	margin: 0 !important;
+	padding: 0 !important;
+}
+.ftr-bdr-btm-none{
+	border-bottom: none;
+	padding-bottom: 0;
+}
+.ftr-bdr-btm-none .rb-address-dsc-bg{
+	padding-bottom: 0;
+}
+
+
 @media(max-width: 1199px){
 	.sbg-sbg-site-mnt-two-wrp .sbg-customer-support-img {
 	    margin-left: 0;
