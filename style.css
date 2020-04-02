@@ -308,6 +308,9 @@ header.fl-hdr{
 	color: #fff;
 	font-weight: 700;
 }
+.fl-mian-nav > ul > li > a:hover{
+	color: #d9d7d7;
+}
 body.home{
 	background: #fff;
 }
@@ -387,6 +390,9 @@ body.home{
 	font-size: 24px;
 	padding-right: 24px;
 }
+.fl-home-sec-1-join-us-con-des p{
+	font-size: 16px;
+}
 .fl-avater-name{
 	text-align: right;
 	font-size: 18px
@@ -436,7 +442,146 @@ body.home{
 }
 .fl-home-sec-2-grd-item-des{
 	padding: 20px;
+	font-size: 17px;
 }
 .fl-home-sec-2-grd-item-des-bg{
 	background:rgb(230, 230, 230); 
+}
+
+
+.fl-footer-wrp{
+	background: rgb(23, 25, 30);
+	padding-top: 40px;
+    padding-bottom: 40px;
+    color: rgb(179, 179, 179);
+}
+.fl-ftr-lft-col h5,
+.fl-ftr-rgt-col h5{
+	color: #fff;
+	font-size: 24px;
+	margin-bottom: 15px;
+}
+
+.fl-ftr-des{
+	text-align: center;
+	padding-top: 40px;
+}
+.fl-ftr-lft-col ul{
+	padding-bottom: 25px;
+}
+.fl-ftr-lft-col ul li a{
+	color: inherit;
+}
+.fl-ftr-lft-col-info p{
+	margin-bottom: 0;
+}
+
+.fl-ftr-rgt-col ul li{
+	padding: 0px 10px 10px 20px;
+	border-bottom: 1px dashed rgba(255, 255, 255, 0.5);
+	color: #fff;
+	margin-bottom: 15px;
+	font-size: 15px;
+}
+.fl-ftr-rgt-col ul li a{
+	color: rgb(233, 160, 31);
+}
+.fl-ftr-rgt-col ul li a:hover{
+	color: #f47b03;
+}
+
+
+
+@media(max-width: 1199px){
+	.fl-home-sec-1-fea-img{
+		margin-bottom: 10px;
+	}
+	.fl-home-sec-1-join-us-con-img{
+		position: static;
+	}
+	.fl-home-sec-1-join-us-con{
+		padding-right: 0;	
+	}
+	.fl-home-sec-1-join-us-con-img{
+		float: right;
+		width: 30%;
+		padding-left: 25px;
+		max-width: 100%;
+	}
+	.fl-home-sec-1-join-us-con-des{
+		width: 70%;
+		float: left;
+	}
+
+}
+
+@media(max-width: 991px){
+	.fl-home-sec-2-grds-cntlr ul{
+		margin: 0;
+	}
+	.fl-home-sec-2-grds-cntlr ul li{
+		width: 100%;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.fl-home-sec-1-inr{
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+	
+}
+
+@media(max-width: 767px){
+	.fl-ftr-lft-col{
+		padding-bottom: 35px;
+	}
+	.fl-home-sec-1-join-us-con-img,
+	.fl-home-sec-1-join-us-con-des{
+		width: 100%;
+		padding-right: 0;
+		padding-left: 0;
+		text-align: center;
+	}
+	.fl-home-sec-1-inr{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.fl-home-sec-1-fea-des{
+		padding-left: 0;
+	}
+	.fl-hdr-iner{
+		display: block;
+		text-align: center;
+	}
+	.fl-logo{
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	.fl-mian-nav{
+		padding-bottom: 20px;
+	}
+	.fl-mian-nav > ul > li:first-child{
+		padding-left: 0;
+	}
+}
+
+@media(max-width: 575px){
+	.fl-home-sec-1-inr{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.fl-mian-nav > ul > li{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	
+}
+
+@media(max-width: 479px){
+
+
+}
+
+@media(max-width: 359px){
+
 }
