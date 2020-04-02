@@ -424,6 +424,10 @@ sbg-site-mnt-sec-wrp
 	    font-size: 16px;
 	    line-height: 18px;
 	}
+	.sbg-sbg-site-mnt-bst {
+	    font-size: 16px;
+	    line-height: 20px;
+	}
 }
 
 @media(max-width: 575px){
