@@ -283,6 +283,11 @@ sbg-site-mnt-sec-wrp
 	padding-bottom: 0;
 }
 
+.credit-card-buy-now-img a{
+	display: inline-block;
+	vertical-align: baseline;
+	text-decoration: none;
+}
 
 @media(max-width: 1199px){
 	.sbg-sbg-site-mnt-two-wrp .sbg-customer-support-img {
